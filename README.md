@@ -1,2 +1,3 @@
 # ASCIIcal
-This repo is a *wip*.
+
+This description is a *work in progress*.
