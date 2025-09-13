@@ -5,7 +5,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-int drawScreen(struct Screen *ptrScreen) {
+int drawScreen(Screen *ptrScreen) {
     if (ptrScreen == NULL) {
         perror("Null *ptrScreen value\n");
         return 1;
@@ -25,7 +25,7 @@ int drawScreen(struct Screen *ptrScreen) {
     return 0;
 }
 
-int clearScreen(struct Screen *ptrScreen) {
+int clearScreen(Screen *ptrScreen) {
     if (ptrScreen == NULL) {
         perror("Null *ptrScreen value\n");
         return 1;

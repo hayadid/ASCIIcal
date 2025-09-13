@@ -26,9 +26,9 @@ typedef struct Screen {
 } Screen;
 
 // Draws to the terminal based on screen's pixels matrix
-int drawScreen(struct Screen *ptrScreen);
+int drawScreen(Screen *ptrScreen);
 
 // Clears screen via command (DOESN'T ALTER PIXELS MATRIX)
-int clearScreen(struct Screen *ptrScreen);
+int clearScreen(Screen *ptrScreen);
 
 #endif
