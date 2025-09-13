@@ -2,6 +2,7 @@
 #include <stdio.h>
 // #include <wchar.h>
 // #include <windows.h>
+#define ASCIICAL_POWERSHELL
 #include "asciical.h"
 
 // #define ASCIICAL_BASH
