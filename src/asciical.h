@@ -9,6 +9,7 @@
 #define ROWS 40
 #define COLS 20
 
+// TODO: figure out how to do this portably
 #define ASCIICAL_POWERSHELL
 
 typedef struct Pixel {
